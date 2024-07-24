@@ -1,0 +1,28 @@
+#creating a list
+my_list=[1,2,3,4,5]
+#Adding the element in the list
+my_list.append(6)
+#Removing the element to the list
+my_list.remove(3)
+#modifying the element in the list
+my_list[0]=10
+print("Updated List:",my_list)
+#creating a dictionary
+my_dict={'Name': 'John','Age': 45,'City':'Noida'}
+#adding
+my_dict['Gender']='Male'
+#removing
+del my_dict['Age']
+#modifying
+my_dict['City']='Mumbai'
+print("Updated dictionary:",my_dict)
+#create a set
+my_set={1,2,3,4,5,6}
+#Adding an element
+my_set.add(7)
+#Removing
+my_set.remove(6)
+#Modifying
+my_set.discard(1)
+my_set.add(12)
+print("Updated set:",my_set)
